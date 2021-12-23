@@ -1,0 +1,68 @@
+export const getServices = () => {
+  const services = [
+    {
+      id: 0,
+      name: "Oil/oil filter changed",
+      icon: "oil-temp",
+      price: 30,
+      hour: 2.3,
+      color: "red",
+      active: false,
+    },
+    {
+      id: 1,
+      name: "Wiper blades replacement.",
+      icon: "oil",
+      price: 450,
+      hour: 5,
+      color: "purple",
+      active: false,
+    },
+    {
+      id: 2,
+      name: "Replace air filter",
+      icon: "oil",
+      price: 150,
+      hour: 4,
+      color: "green",
+      active: false,
+    },
+    {
+      id: 3,
+      name: "Diagnostics",
+      icon: "oil",
+      price: 35,
+      hour: 2.5,
+      color: "yellow",
+      active: false,
+    },
+    {
+      id: 4,
+      name: "New tires",
+      icon: "oil",
+      price: 200,
+      hour: 4,
+      color: "orange",
+      active: false,
+    },
+    {
+      id: 5,
+      name: "Inner Cleaning",
+      icon: "oil",
+      price: 37,
+      hour: 2.5,
+      color: "pink",
+      active: false,
+    },
+    {
+      id: 6,
+      name: "Brake work",
+      icon: "",
+      price: 37,
+      hour: 2.5,
+      color: "blue",
+      active: false,
+    },
+  ];
+  return services;
+};

@@ -1,0 +1,27 @@
+.spotButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #f0f4f7;
+  color: #acb2c7;
+  width: 46px;
+  height: 60px;
+  margin: 0 auto;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.spotButton:hover {
+  background: #015ee5;
+  color: white;
+  box-shadow: 0 0.5em 1em -0.4em var(--hover);
+  transform: translateY(-0.3em);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.spotButton.active {
+  background-color: #15cfce;
+  color: white;
+}

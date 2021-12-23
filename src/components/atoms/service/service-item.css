@@ -1,0 +1,67 @@
+.serviceBtn {
+  cursor: pointer;
+  border: 2px solid #acb2c7;
+  border-radius: 8px;
+  width: 160px;
+  height: 160px;
+  color: #3c4173;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.1s ease-in-out;
+  position: relative;
+  top: 0;
+  transition: top 0.5s;
+  background-color: white;
+}
+
+.serviceBtn.red {
+  background-color: rgb(233, 90, 90);
+}
+.serviceBtn.purple {
+  background-color: rgb(180, 114, 241);
+}
+.serviceBtn.yellow {
+  background-color: rgb(241, 241, 131);
+}
+.serviceBtn.orange {
+  background-color: rgb(247, 188, 80);
+}
+.serviceBtn.green {
+  background-color: #15cfce;
+}
+.serviceBtn.pink {
+  background-color: pink;
+}
+.serviceBtn.blue {
+  background-color: #015ee5;
+}
+
+.serviceBtn:hover {
+  background: #015ee5;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  top: -10px;
+}
+
+.textBtn {
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+.random {
+  color: #3c4173;
+}
+
+.serviceBtn:hover,
+.serviceBtn:active {
+  color: white;
+}
+
+.serviceBtn.active {
+  background-color: #15cfce;
+  color: white;
+}
+
+.serviceBtn.inactive {
+  background-color: white;
+  color: #3c4173;
+}
